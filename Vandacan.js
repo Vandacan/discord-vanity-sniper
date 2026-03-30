@@ -56,7 +56,7 @@ const claimVanity = (code) => {
 
         req.on('response', (headers) => {
             if (headers[':status'] === '200' || headers[':status'] === '204') {
-                logToDiscord(`@everyone matthesolo ${code}`);
+                logToDiscord(`@everyone Vandacan ${code}`);
             }
         });
 
